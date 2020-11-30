@@ -1,0 +1,6 @@
+target/
+*.orig
+*.versionBackup
+*.log
+clean.txt
+tmp

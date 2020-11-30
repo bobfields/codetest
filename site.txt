@@ -1,0 +1,328 @@
+[INFO] Scanning for projects...
+[WARNING] The project com.cgey.codetest:codetest:jar:1.0-SNAPSHOT uses prerequisites which is only intended for maven-plugin projects but not for non maven-plugin projects. For such purposes you should use the maven-enforcer-plugin. See https://maven.apache.org/enforcer/enforcer-rules/requireMavenVersion.html
+[INFO] 
+[INFO] ---------------------< com.cgey.codetest:codetest >---------------------
+[INFO] Building codetest 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-site-plugin:3.8.2:site (default-site) @ codetest ---
+[INFO] configuring report plugin org.apache.maven.plugins:maven-javadoc-plugin:3.2.0
+[INFO] preparing maven-javadoc-plugin:javadoc report requires 'generate-sources' forked phase execution
+[INFO] 
+[INFO] >>> maven-javadoc-plugin:3.2.0:javadoc > generate-sources @ codetest >>>
+[INFO] 
+[INFO] <<< maven-javadoc-plugin:3.2.0:javadoc < generate-sources @ codetest <<<
+[INFO] 
+[INFO] 'generate-sources' forked phase execution for maven-javadoc-plugin:javadoc report preparation done
+[INFO] preparing maven-javadoc-plugin:test-javadoc report requires 'generate-test-sources' forked phase execution
+[INFO] 
+[INFO] >>> maven-javadoc-plugin:3.2.0:test-javadoc > generate-test-sources @ codetest >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ codetest ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Programs\Github\CGEYCodingExercise\codetest\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ codetest ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< maven-javadoc-plugin:3.2.0:test-javadoc < generate-test-sources @ codetest <<<
+[INFO] 
+[INFO] 'generate-test-sources' forked phase execution for maven-javadoc-plugin:test-javadoc report preparation done
+[INFO] 6 reports detected for maven-javadoc-plugin:3.2.0: aggregate-no-fork, javadoc, javadoc-no-fork, test-aggregate-no-fork, test-javadoc, test-javadoc-no-fork
+[INFO] configuring report plugin org.apache.maven.plugins:maven-jxr-plugin:3.0.0
+[INFO] preparing maven-jxr-plugin:jxr report requires 'generate-sources' forked phase execution
+[INFO] 
+[INFO] >>> maven-jxr-plugin:3.0.0:jxr > generate-sources @ codetest >>>
+[INFO] 
+[INFO] <<< maven-jxr-plugin:3.0.0:jxr < generate-sources @ codetest <<<
+[INFO] 
+[INFO] 'generate-sources' forked phase execution for maven-jxr-plugin:jxr report preparation done
+[INFO] preparing maven-jxr-plugin:test-jxr report requires 'generate-test-sources' forked phase execution
+[INFO] 
+[INFO] >>> maven-jxr-plugin:3.0.0:test-jxr > generate-test-sources @ codetest >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ codetest ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Programs\Github\CGEYCodingExercise\codetest\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ codetest ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< maven-jxr-plugin:3.0.0:test-jxr < generate-test-sources @ codetest <<<
+[INFO] 
+[INFO] 'generate-test-sources' forked phase execution for maven-jxr-plugin:test-jxr report preparation done
+[INFO] 2 reports detected for maven-jxr-plugin:3.0.0: jxr, test-jxr
+[INFO] configuring report plugin org.apache.maven.plugins:maven-pmd-plugin:3.14.0
+[INFO] 2 reports detected for maven-pmd-plugin:3.14.0: cpd, pmd
+[INFO] configuring report plugin org.apache.maven.plugins:maven-checkstyle-plugin:3.1.1
+[INFO] 1 report detected for maven-checkstyle-plugin:3.1.1: checkstyle
+[INFO] configuring report plugin org.apache.maven.plugins:maven-project-info-reports-plugin:3.1.1
+[INFO] 15 reports detected for maven-project-info-reports-plugin:3.1.1: ci-management, dependencies, dependency-info, dependency-management, distribution-management, index, issue-management, licenses, mailing-lists, modules, plugin-management, plugins, scm, summary, team
+[INFO] configuring report plugin org.codehaus.mojo:findbugs-maven-plugin:3.0.5
+[INFO] 1 report detected for findbugs-maven-plugin:3.0.5: findbugs
+[INFO] configuring report plugin org.apache.maven.plugins:maven-surefire-report-plugin:2.22.2
+[INFO] preparing maven-surefire-report-plugin:report report requires '[surefire]test' forked phase execution
+[INFO] 
+[INFO] >>> maven-surefire-report-plugin:2.22.2:report > [surefire]test @ codetest >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ codetest ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Programs\Github\CGEYCodingExercise\codetest\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ codetest ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ codetest ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Programs\Github\CGEYCodingExercise\codetest\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ codetest ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ codetest ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.cgey.codetest.AppTest
+0.65
+Hello World!
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.05 s - in com.cgey.codetest.AppTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] <<< maven-surefire-report-plugin:2.22.2:report < [surefire]test @ codetest <<<
+[INFO] 
+[INFO] '[surefire]test' forked phase execution for maven-surefire-report-plugin:report report preparation done
+[INFO] 3 reports detected for maven-surefire-report-plugin:2.22.2: failsafe-report-only, report, report-only
+[INFO] configuring report plugin org.codehaus.mojo:taglist-maven-plugin:2.4
+[INFO] 1 report detected for taglist-maven-plugin:2.4: taglist
+[INFO] configuring report plugin org.codehaus.mojo:clirr-maven-plugin:2.8
+[INFO] preparing clirr-maven-plugin:clirr report requires 'compile' forked phase execution
+[INFO] 
+[INFO] >>> clirr-maven-plugin:2.8:clirr > compile @ codetest >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ codetest ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Programs\Github\CGEYCodingExercise\codetest\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ codetest ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< clirr-maven-plugin:2.8:clirr < compile @ codetest <<<
+[INFO] 
+[INFO] 'compile' forked phase execution for clirr-maven-plugin:clirr report preparation done
+[INFO] 1 report detected for clirr-maven-plugin:2.8: clirr
+[INFO] configuring report plugin org.codehaus.mojo:cobertura-maven-plugin:2.7
+[INFO] preparing cobertura-maven-plugin:cobertura report requires '[cobertura]test' forked phase execution
+[INFO] 
+[INFO] >>> cobertura-maven-plugin:2.7:cobertura > [cobertura]test @ codetest >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ codetest ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Programs\Github\CGEYCodingExercise\codetest\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ codetest ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- cobertura-maven-plugin:2.7:instrument @ codetest ---
+[INFO] Cobertura 2.1.1 - GNU GPL License (NO WARRANTY) - See COPYRIGHT file
+[INFO] Cobertura: Saved information on 2 classes.
+[INFO] Cobertura: Saved information on 2 classes.
+
+[INFO] Instrumentation was successful.
+[INFO] NOT adding cobertura ser file to attached artifacts list.
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ codetest ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Programs\Github\CGEYCodingExercise\codetest\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ codetest ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to C:\Programs\Github\CGEYCodingExercise\codetest\target\test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ codetest ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.cgey.codetest.AppTest
+0.65
+Hello World!
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.199 s - in com.cgey.codetest.AppTest
+[INFO] Cobertura: Loaded information on 2 classes.
+[INFO] Cobertura: Saved information on 2 classes.
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] <<< cobertura-maven-plugin:2.7:cobertura < [cobertura]test @ codetest <<<
+[INFO] 
+[INFO] '[cobertura]test' forked phase execution for cobertura-maven-plugin:cobertura report preparation done
+[INFO] preparing cobertura-maven-plugin:cobertura-integration-test report requires '[cobertura]verify' forked phase execution
+[INFO] 
+[INFO] >>> cobertura-maven-plugin:2.7:cobertura-integration-test > [cobertura]verify @ codetest >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ codetest ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Programs\Github\CGEYCodingExercise\codetest\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ codetest ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- cobertura-maven-plugin:2.7:instrument @ codetest ---
+[INFO] Cobertura 2.1.1 - GNU GPL License (NO WARRANTY) - See COPYRIGHT file
+[INFO] Cobertura: Loaded information on 2 classes.
+[INFO] Cobertura: Saved information on 2 classes.
+[INFO] Cobertura: Saved information on 2 classes.
+
+[INFO] Instrumentation was successful.
+[INFO] NOT adding cobertura ser file to attached artifacts list.
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ codetest ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Programs\Github\CGEYCodingExercise\codetest\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ codetest ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to C:\Programs\Github\CGEYCodingExercise\codetest\target\test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ codetest ---
+[INFO] Skipping execution of surefire because it has already been run for this configuration
+[INFO] 
+[INFO] --- maven-jar-plugin:3.2.0:jar (default-jar) @ codetest ---
+[INFO] Building jar: C:\Programs\Github\CGEYCodingExercise\codetest\target\codetest-1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] <<< cobertura-maven-plugin:2.7:cobertura-integration-test < [cobertura]verify @ codetest <<<
+[INFO] 
+[INFO] '[cobertura]verify' forked phase execution for cobertura-maven-plugin:cobertura-integration-test report preparation done
+[INFO] 2 reports detected for cobertura-maven-plugin:2.7: cobertura, cobertura-integration-test
+[INFO] configuring report plugin org.codehaus.mojo:javancss-maven-plugin:2.1
+[INFO] 1 report detected for javancss-maven-plugin:2.1: report
+[INFO] configuring report plugin org.apache.maven.plugins:maven-changes-plugin:2.12.1
+[INFO] 1 report configured for maven-changes-plugin:2.12.1: changes-report
+[INFO] configuring report plugin org.codehaus.mojo:versions-maven-plugin:2.8.1
+[INFO] 3 reports configured for versions-maven-plugin:2.8.1: dependency-updates-report, plugin-updates-report, property-updates-report
+[INFO] Fork Value is true
+[INFO] Done FindBugs Analysis....
+[INFO] Unable to find a previous version of the project in the repository
+[INFO] Not generating Clirr report as there is no previous version of the library to compare against
+[INFO] Rendering site with default locale English (en)
+[INFO] Relativizing decoration links with respect to localized project URL: http://www.example.com
+[INFO] Rendering content with org.apache.maven.skins:maven-default-skin:jar:1.2 skin.
+[INFO] Skipped "Javadoc" report (maven-javadoc-plugin:3.2.0:javadoc), file "apidocs/index.html" already exists.
+[INFO] Skipped "Javadoc" report (maven-javadoc-plugin:3.2.0:javadoc-no-fork), file "apidocs/index.html" already exists.
+[INFO] Skipped "Test Javadoc" report (maven-javadoc-plugin:3.2.0:test-javadoc), file "testapidocs/index.html" already exists.
+[INFO] Skipped "Test Javadoc" report (maven-javadoc-plugin:3.2.0:test-javadoc-no-fork), file "testapidocs/index.html" already exists.
+[INFO] Skipped "Surefire Report" report (maven-surefire-report-plugin:2.22.2:report-only), file "surefire-report.html" already exists.
+[INFO] Skipped "Cobertura Test Coverage" report (cobertura-maven-plugin:2.7:cobertura-integration-test), file "cobertura/index.html" already exists.
+[INFO] Generating "Javadoc" report       --- maven-javadoc-plugin:3.2.0:aggregate-no-fork
+[WARNING] Are you sure about the <javadocVersion/> parameter? It seems to be 1.8.0
+[INFO] No previous run data found, generating javadoc.
+[INFO] 
+Loading source file C:\Programs\Github\CGEYCodingExercise\codetest\src\main\java\com\cgey\codetest\App.java...
+Loading source file C:\Programs\Github\CGEYCodingExercise\codetest\src\main\java\com\cgey\codetest\MenuItem.java...
+Constructing Javadoc information...
+Standard Doclet version 1.8.0_271
+Building tree for all the packages and classes...
+Generating C:\Programs\Github\CGEYCodingExercise\codetest\target\site\apidocs\com\cgey\codetest\App.html...
+Generating C:\Programs\Github\CGEYCodingExercise\codetest\target\site\apidocs\com\cgey\codetest\MenuItem.html...
+Generating C:\Programs\Github\CGEYCodingExercise\codetest\target\site\apidocs\com\cgey\codetest\package-frame.html...
+Generating C:\Programs\Github\CGEYCodingExercise\codetest\target\site\apidocs\com\cgey\codetest\package-summary.html...
+Generating C:\Programs\Github\CGEYCodingExercise\codetest\target\site\apidocs\com\cgey\codetest\package-tree.html...
+Generating C:\Programs\Github\CGEYCodingExercise\codetest\target\site\apidocs\constant-values.html...
+Generating C:\Programs\Github\CGEYCodingExercise\codetest\target\site\apidocs\com\cgey\codetest\class-use\App.html...
+Generating C:\Programs\Github\CGEYCodingExercise\codetest\target\site\apidocs\com\cgey\codetest\class-use\MenuItem.html...
+Generating C:\Programs\Github\CGEYCodingExercise\codetest\target\site\apidocs\com\cgey\codetest\package-use.html...
+Building index for all the packages and classes...
+Generating C:\Programs\Github\CGEYCodingExercise\codetest\target\site\apidocs\overview-tree.html...
+Generating C:\Programs\Github\CGEYCodingExercise\codetest\target\site\apidocs\index-all.html...
+Generating C:\Programs\Github\CGEYCodingExercise\codetest\target\site\apidocs\deprecated-list.html...
+Building index for all classes...
+Generating C:\Programs\Github\CGEYCodingExercise\codetest\target\site\apidocs\allclasses-frame.html...
+Generating C:\Programs\Github\CGEYCodingExercise\codetest\target\site\apidocs\allclasses-noframe.html...
+Generating C:\Programs\Github\CGEYCodingExercise\codetest\target\site\apidocs\index.html...
+Generating C:\Programs\Github\CGEYCodingExercise\codetest\target\site\apidocs\help-doc.html...
+3 warnings
+[WARNING] Javadoc Warnings
+[WARNING] C:\Programs\Github\CGEYCodingExercise\codetest\src\main\java\com\cgey\codetest\App.java:32: warning: no description for @param
+[WARNING] * @param items
+[WARNING] ^
+[WARNING] C:\Programs\Github\CGEYCodingExercise\codetest\src\main\java\com\cgey\codetest\App.java:33: warning: no description for @return
+[WARNING] * @return
+[WARNING] ^
+[WARNING] C:\Programs\Github\CGEYCodingExercise\codetest\src\main\java\com\cgey\codetest\MenuItem.java:125: warning: no description for @param
+[WARNING] * @param args
+[WARNING] ^
+[INFO] Generating "Test Javadoc" report  --- maven-javadoc-plugin:3.2.0:test-aggregate-no-fork
+[WARNING] Are you sure about the <javadocVersion/> parameter? It seems to be 1.8.0
+[INFO] Configuration changed, re-generating javadoc.
+[INFO] 
+Loading source file C:\Programs\Github\CGEYCodingExercise\codetest\src\test\java\com\cgey\codetest\AppTest.java...
+Constructing Javadoc information...
+Standard Doclet version 1.8.0_271
+Building tree for all the packages and classes...
+Generating C:\Programs\Github\CGEYCodingExercise\codetest\target\site\testapidocs\com\cgey\codetest\AppTest.html...
+Generating C:\Programs\Github\CGEYCodingExercise\codetest\target\site\testapidocs\com\cgey\codetest\package-frame.html...
+Generating C:\Programs\Github\CGEYCodingExercise\codetest\target\site\testapidocs\com\cgey\codetest\package-summary.html...
+Generating C:\Programs\Github\CGEYCodingExercise\codetest\target\site\testapidocs\com\cgey\codetest\package-tree.html...
+Generating C:\Programs\Github\CGEYCodingExercise\codetest\target\site\testapidocs\constant-values.html...
+Generating C:\Programs\Github\CGEYCodingExercise\codetest\target\site\testapidocs\com\cgey\codetest\class-use\AppTest.html...
+Generating C:\Programs\Github\CGEYCodingExercise\codetest\target\site\testapidocs\com\cgey\codetest\package-use.html...
+Building index for all the packages and classes...
+Generating C:\Programs\Github\CGEYCodingExercise\codetest\target\site\testapidocs\overview-tree.html...
+Generating C:\Programs\Github\CGEYCodingExercise\codetest\target\site\testapidocs\index-all.html...
+Generating C:\Programs\Github\CGEYCodingExercise\codetest\target\site\testapidocs\deprecated-list.html...
+Building index for all classes...
+Generating C:\Programs\Github\CGEYCodingExercise\codetest\target\site\testapidocs\allclasses-frame.html...
+Generating C:\Programs\Github\CGEYCodingExercise\codetest\target\site\testapidocs\allclasses-noframe.html...
+Generating C:\Programs\Github\CGEYCodingExercise\codetest\target\site\testapidocs\index.html...
+Generating C:\Programs\Github\CGEYCodingExercise\codetest\target\site\testapidocs\help-doc.html...
+[INFO] Generating "Source Xref" report   --- maven-jxr-plugin:3.0.0:jxr
+[INFO] Generating "Test Source Xref" report --- maven-jxr-plugin:3.0.0:test-jxr
+[INFO] Generating "CPD" report           --- maven-pmd-plugin:3.14.0:cpd
+[INFO] Generating "PMD" report           --- maven-pmd-plugin:3.14.0:pmd
+[INFO] Generating "Checkstyle" report    --- maven-checkstyle-plugin:3.1.1:checkstyle
+[INFO] There are 48 errors reported by Checkstyle 8.29 with sun_checks.xml ruleset.
+[INFO] Generating "Dependencies" report  --- maven-project-info-reports-plugin:3.1.1:dependencies
+[INFO] Generating "Dependency Information" report --- maven-project-info-reports-plugin:3.1.1:dependency-info
+[INFO] Generating "About" report         --- maven-project-info-reports-plugin:3.1.1:index
+[INFO] Generating "Plugin Management" report --- maven-project-info-reports-plugin:3.1.1:plugin-management
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-antrun-plugin/3.0.0/maven-antrun-plugin-3.0.0.pom
+Progress (1): 1.4/4.7 kBProgress (1): 2.7/4.7 kBProgress (1): 4.1/4.7 kBProgress (1): 4.7 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-antrun-plugin/3.0.0/maven-antrun-plugin-3.0.0.pom (4.7 kB at 13 kB/s)
+Downloading from sonatype: http://oss.sonatype.org/content/groups/public/org/apache/maven/plugins/maven-assembly-plugin/3.0.0/maven-assembly-plugin-3.0.0.pom
+Progress (1): 1.4/15 kBProgress (1): 2.7/15 kBProgress (1): 4.1/15 kBProgress (1): 5.5/15 kBProgress (1): 6.9/15 kBProgress (1): 8.2/15 kBProgress (1): 9.6/15 kBProgress (1): 11/15 kB Progress (1): 12/15 kBProgress (1): 14/15 kBProgress (1): 15/15 kBProgress (1): 15 kB                      Downloaded from sonatype: http://oss.sonatype.org/content/groups/public/org/apache/maven/plugins/maven-assembly-plugin/3.0.0/maven-assembly-plugin-3.0.0.pom (15 kB at 18 kB/s)
+Downloading from sonatype: http://oss.sonatype.org/content/groups/public/org/apache/maven/plugins/maven-dependency-plugin/3.1.2/maven-dependency-plugin-3.1.2.pom
+Downloaded from sonatype: http://oss.sonatype.org/content/groups/public/org/apache/maven/plugins/maven-dependency-plugin/3.1.2/maven-dependency-plugin-3.1.2.pom (0 B at 0 B/s)
+[INFO] Generating "Plugins" report       --- maven-project-info-reports-plugin:3.1.1:plugins
+[INFO] Generating "Summary" report       --- maven-project-info-reports-plugin:3.1.1:summary
+[INFO] Generating "FindBugs" report      --- findbugs-maven-plugin:3.0.5:findbugs
+[INFO] Generating "Surefire Report" report --- maven-surefire-report-plugin:2.22.2:report
+[INFO] Generating "Tag List" report      --- taglist-maven-plugin:2.4:taglist
+[INFO] Generating "Cobertura Test Coverage" report --- cobertura-maven-plugin:2.7:cobertura
+[INFO] Cobertura 2.1.1 - GNU GPL License (NO WARRANTY) - See COPYRIGHT file
+[INFO] Cobertura: Loaded information on 2 classes.
+Report time: 131ms
+
+[INFO] Cobertura Report generation was successful.
+[INFO] Cobertura 2.1.1 - GNU GPL License (NO WARRANTY) - See COPYRIGHT file
+[INFO] Cobertura: Loaded information on 2 classes.
+Report time: 130ms
+
+[INFO] Cobertura Report generation was successful.
+[INFO] Generating "JavaNCSS Report" report --- javancss-maven-plugin:2.1:report
+[INFO] Running JavaNCSS 33.54
+[INFO] Generating "Dependency Updates Report" report --- versions-maven-plugin:2.8.1:dependency-updates-report
+[INFO] Generating "Plugin Updates Report" report --- versions-maven-plugin:2.8.1:plugin-updates-report
+[INFO] Generating "Property Updates Report" report --- versions-maven-plugin:2.8.1:property-updates-report
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  29.047 s
+[INFO] Finished at: 2020-11-30T01:32:01-05:00
+[INFO] ------------------------------------------------------------------------
